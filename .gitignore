@@ -1,0 +1,37 @@
+# Ignore binaries produced by compiling aflnet.
+aflnet/afl-analyze
+aflnet/afl-as
+aflnet/afl-clang
+aflnet/afl-clang++
+aflnet/afl-fuzz
+aflnet/afl-g++
+aflnet/afl-gcc
+aflnet/afl-gotcpu
+aflnet/afl-replay
+aflnet/afl-showmap
+aflnet/afl-tmin
+aflnet/aflnet-replay
+aflnet/aflnet.o
+aflnet/as
+aflnet/experimental/clang_asm_normalize/
+aflnet/afl-clang-fast
+aflnet/afl-clang-fast++
+aflnet/afl-llvm-pass.so
+aflnet/afl-llvm-rt-32.o
+aflnet/afl-llvm-rt-64.o
+aflnet/afl-llvm-rt.o
+
+aflnet/llvm_mode/afl-clang-fast
+aflnet/llvm_mode/afl-clang-fast++
+aflnet/llvm_mode/afl-llvm-pass.so
+aflnet/llvm_mode/afl-llvm-rt-32.o
+aflnet/llvm_mode/afl-llvm-rt-64.o
+aflnet/llvm_mode/afl-llvm-rt.o
+
+# Ignore binaries produced by compiling fotbot
+fotbot/fotbot
+fotbot/fotbot-gcov
+fotbot/fotbot-fuzz 
+fotbot/fotbot-asan 
+fotbot/fotbot.gcno
+fotbot/fotbot.gcda
