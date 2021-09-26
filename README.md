@@ -94,7 +94,7 @@ Once the above command completes, you can run `gcovr -r . -s` to get the code co
 
 ### Task-3: Discover vulnerabilities
 
-The given FotBot server has at least three (3) known security vulnerabilities. You are expected to discover all of them and write detailed explanations about what the vulnerabilities are, their impacts and how to reproduce them. Since this assignment focuses on fuzzing, you should document all the instructions to find those vulnerabilites through fuzzing. The markers may follow the instructions to confirm your findings.
+The given FotBot server has at least three (3) known security vulnerabilities. You are expected to discover them and write detailed explanations about what the vulnerabilities are, their impacts and how to reproduce them. Since this assignment focuses on fuzzing, you should document all the instructions to find those vulnerabilites through fuzzing. The markers may follow the instructions to confirm your findings.
 
 ### Task-4: Write report & reflections
 
@@ -149,7 +149,7 @@ If you submit late, email Thuan to let him know so he can pull the changes from 
 
 ### Academic Misconduct
 
-The University academic integrity policy (see [https://academicintegrity.unimelb.edu.au/](https://academicintegrity.unimelb.edu.au/) applies. Students are encouraged to discuss the assignment topic, but all submitted work must represent the individual's understanding of the topic. 
+The University academic integrity policy (see [https://academicintegrity.unimelb.edu.au/](https://academicintegrity.unimelb.edu.au/)) applies. Students are encouraged to discuss the assignment topic, but all submitted work must represent the individual/group's understanding of the topic.
 
 The subject staff take academic misconduct very seriously. In this subject in the past, we have successfully prosecuted several students that have breached the university policy. Often this results in receiving 0 marks for the assessment, and in some cases, has resulted in failure of the subject. 
 
