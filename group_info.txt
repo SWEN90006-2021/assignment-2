@@ -1,17 +1,17 @@
 Group Number:
 
 Member-1:
-- Name:
-- Student ID:
+- Name:Songpei Lu 
+- Student ID:1155657
 
 Member-2:
-- Name:
-- Student ID:
+- Name:Zhongqi Xu
+- Student ID:1129844
 
 Member-3:
-- Name:
-- Student ID:
+- Name:Jiyuan Wang
+- Student ID:1143952
 
 Member-4:
-- Name:
-- Student ID:
+- Name:Yue Song
+- Student ID:1179516
