@@ -1,0 +1,5 @@
+USER admin
+PASS admin
+UPDA 1000,2000,1500
+GETS admin
+QUIT
