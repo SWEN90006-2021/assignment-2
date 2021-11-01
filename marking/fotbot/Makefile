@@ -18,7 +18,7 @@ fuzzing:
 asan:
 	clang -fsanitize=address -g -o fotbot-asan fotbot.c
 
-all: normal gcov fuzzing asan fault2
+all: normal gcov fuzzing asan fault1 fault2
 
 clean:
 	rm -f fotbot fotbot-gcov fotbot-fuzz fotbot-asan fotbot.gcno fotbot.gcda
