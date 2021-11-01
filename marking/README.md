@@ -23,3 +23,9 @@ afl-fuzz -d -i sample-corpus -o sample-output -N tcp://127.0.0.1/8888 -x sample.
 ```bash
 replay.sh $WORKDIR/fotbot/fotbot-gcov <path_to_generated_corpus>
 ```
+
+## Run a fotbot binary with a single input e.g. to confirm a fault
+
+```bash
+aflnet-replay <path_to_an_input> FOTBOT 8888 > /dev/null 2>&1 & <path_to_a_fotbot_binary> 127.0.0.1 8888
+```
