@@ -3,6 +3,9 @@ SHELL:=/bin/bash
 normal:
 	gcc -g -o fotbot fotbot.c
 
+fault1:
+	gcc -g -o fotbot_fault1 fotbot_fault1.c
+
 fault2:
 	gcc -g -o fotbot_fault2 fotbot_fault2.c
 
