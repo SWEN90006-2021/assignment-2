@@ -35,10 +35,11 @@ RUN pip install gcovr
 
 # Set up environment variables
 ENV WORKDIR="/home/ubuntu"
+ENV MARKDIR="/home/ubuntu/marking"
 ENV AFL="${WORKDIR}/aflnet"
 ENV AFLNET="${WORKDIR}/aflnet"
 ENV AFL_PATH="${WORKDIR}/aflnet"
-ENV PATH="${PATH}:${WORKDIR}:${AFL}:${AFLNET}:/home/ubuntu/.local/bin"
+ENV PATH="${PATH}:${WORKDIR}:${MARKDIR}:${AFL}:${AFLNET}:/home/ubuntu/.local/bin"
 
 # The following environment variables are set to make AFL work inside a Docker container
 ENV AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1 \
@@ -49,6 +50,7 @@ ENV AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1 \
 COPY --chown=ubuntu:ubuntu aflnet $WORKDIR/aflnet
 COPY --chown=ubuntu:ubuntu fotbot $WORKDIR/fotbot
 COPY --chown=ubuntu:ubuntu results $WORKDIR/results
+COPY --chown=ubuntu:ubuntu marking $WORKDIR/marking
 
 # Compile AFLNet
 RUN cd $WORKDIR && \
